@@ -1,0 +1,14 @@
+{
+  "name": "hif-landing",
+  "version": "1.0.0",
+  "description": "Landing Page for Hotel in Forest",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/tailwind.css -o dist/css/tailwind.css"
+  },
+  "author": "Marcellus",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^1.6.2"
+  }
+}
