@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/f7c1e4ce8d.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-    <title>Hotel in Forest</title>
+    <title>HIF | Holiday in Forest</title>
 </head>
 <body>
     <header class="header relative bg-center bg-no-repeat bg-cover">
@@ -18,7 +18,7 @@
                     Imagination Becomes Reality
                 </span>
             </h1>
-            <a class="btn btn__white white mt-20 uppercase text-2xl" href="#">Discover Our Tours</a>
+            <a class="btn btn__white white mt-12 uppercase text-2xl" href="#">Discover Our Tours</a>
         </div>
         <div class="header__nav--btn"></div>
     </header>
@@ -68,41 +68,82 @@
                 </div>
             </div>
         </section>
-        <section class="section-tours section__unordered">
+        <section class="section-tours text-center section__unordered">
             <h2 class="section__main font-semibold mb-12 text-center">MOST POPULAR TOURS</h2>
-            <div class="tours__container flex justify-between mt-12">
-                <div class="tours__card">
-                    <div class="tours__front">
-                        <div class="tours__header tours__hiker">
-                            
+            <div class="tours__container flex justify-between my-12">
+                <div class="tours__card relative">
+                    <div class="tours__front absolute w-full h-full">
+                        <div class="tours__header relative tours__hiker">
+                            <h4 class="tours__title absolute text-right text-white text-2xl p-3 uppercase">
+                                 The Forest Hiker
+                            </h4>
+                        </div>
+                        <div class="tours__body">
+                            <ul class="tours__details text-center">
+                                <li class="tours__detail mt-4">5 day tours</li>
+                                <li class="tours__detail mt-4">Up to 30 people</li>
+                                <li class="tours__detail mt-4">2 tour guides</li>
+                                <li class="tours__detail mt-4">Sleep in cozy hotels</li>
+                                <li class="tours__detail mt-4">Difficulty: easy</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="tours__back">
-
+                    <div class="tours__back absolute duration-300 text-center flex flex-col justify-center w-full h-full">
+                        <p class="text-white">ONLY</p>
+                        <h3 class="tours__price text-white mt-8">€297</h3>
+                        <a href="#" class="tours__btn btn btn__white self-center">BOOK NOW!</a>
                     </div>
                 </div>
-                <div class="tours__card">
-                    <div class="tours__front">
-                        <div class="tours__header tours__explorer">
-                            
+                <div class="tours__card relative">
+                    <div class="tours__front absolute w-full h-full">
+                        <div class="tours__header relative tours__explorer">
+                            <h4 class="tours__title absolute text-right text-white text-2xl p-3 uppercase">
+                                The Forest Explorer
+                           </h4>
+                        </div>
+                        <div class="tours__body">
+                            <ul class="tours__details text-center">
+                                <li class="tours__detail mt-4">7 day tours</li>
+                                <li class="tours__detail mt-4">Up to 40 people</li>
+                                <li class="tours__detail mt-4">6 tour guides</li>
+                                <li class="tours__detail mt-4">Sleep in provided tents</li>
+                                <li class="tours__detail mt-4">Difficulty: medium</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="tours__back">
-
+                    <div class="tours__back absolute duration-300 text-center flex flex-col justify-center w-full h-full">
+                        <p class="text-white">ONLY</p>
+                        <h3 class="tours__price text-white mt-8">€697</h3>
+                        <a href="#" class="tours__btn btn btn__white self-center">BOOK NOW!</a>
                     </div>
                 </div>
-                <div class="tours__card">
-                    <div class="tours__front">
-                        <div class="tours__header tours__adventurer">
-                            
+                <div class="tours__card relative">
+                    <div class="tours__front absolute w-full h-full">
+                        <div class="tours__header tours__adventurer relative">
+                            <h4 class="tours__title absolute text-right text-white text-2xl p-3 uppercase">
+                                <span class="block">The Forest Adventurer</span>
+                           </h4>
+                        </div>
+                        <div class="tours__body">
+                            <ul class="tours__details text-center">
+                                <li class="tours__detail mt-4">3 day tours</li>
+                                <li class="tours__detail mt-4">Up to 10 people</li>
+                                <li class="tours__detail mt-4">3 tour guides</li>
+                                <li class="tours__detail mt-4">Sleep in provided tents</li>
+                                <li class="tours__detail mt-4">Difficulty: hard</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="tours__back">
-
+                    <div class="tours__back absolute duration-300 text-center flex flex-col justify-center w-full h-full">
+                        <p class="text-white">ONLY</p>
+                        <h3 class="tours__price text-white mt-8">€497</h3>
+                        <a href="#" class="tours__btn btn btn__white self-center">BOOK NOW!</a>
                     </div>
                 </div>
             </div>
+            <a class="btn btn__purple uppercase mt-12 text-white text-center" id="btn">Discover all Tours</a>
         </section>
     </main>
+    <script src="/dist/js/main.js"></script>
 </body>
 </html>
