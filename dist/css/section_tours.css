@@ -9,6 +9,22 @@
     transition: all .5s;
 }
 
+.tours__swipe {
+    z-index: 10000000 !important;
+}
+
+.tours__swipe--right {
+    bottom: 25px;
+    right:25px;
+    color: #fff;
+}
+
+.tours__swipe--left {
+    bottom: 25px;
+    left: 25px;
+    color: #6D24A7;
+}
+
 .tours__card:active {
     transform: translateY(15px) scale(.95);
 }
@@ -88,11 +104,3 @@
 .tours__back--rotate {
     transform: perspective(600px) rotateY(0deg);
 }
-
-/*.tours__card:hover > .tours__front {
-    transform: perspective(600px) rotateY(-180deg);
-}
-  
-.tours__card:hover > .tours__back {
-    transform: perspective(600px) rotateY(0deg);
-}*/
