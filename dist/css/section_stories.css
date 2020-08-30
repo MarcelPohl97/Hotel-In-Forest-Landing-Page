@@ -1,3 +1,4 @@
+
 .stories__bg {
     top:0;
     left:0;
@@ -12,4 +13,34 @@
     width:100%;
     height:100%;
     object-fit: cover;
+}
+
+.story {
+    background: rgba(255, 255, 255, 0.6);
+    transform: skewX(-12deg);
+    width: 75%;
+    margin: 6rem auto;
+    border-radius: 3px;
+    
+}
+
+.story__testimonial {
+    transform: skewX(12deg);
+    overflow: hidden;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    transform: skewX(12deg);
+}
+
+.story__img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    transform: scale(1.4);
+
+}
+
+.story__comment {
+    transform: skewX(12deg);
 }
