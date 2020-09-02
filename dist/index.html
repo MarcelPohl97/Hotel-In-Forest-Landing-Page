@@ -150,31 +150,56 @@
             </div>
             <a class="btn btn__purple uppercase mt-12 text-white text-center" id="btn">Discover all Tours</a>
         </section>
-        <section class="section-stories section__padding relative">
-            <div class="stories__bg absolute">
-                <video class="stories__video" autoplay muted loop>
+        <section class="section-stories text-center section__padding relative">
+            <div class="stories__bg w-full h-full overflow-hidden absolute">
+                <video class="stories__video w-full h-full object-cover" autoplay muted loop>
                     <source src="media/forest.mp4" type="video/mp4">
                 </video>
             </div>
             <h2 class="section__main font-semibold mb-12 text-center">MOST POPULAR TOURS</h2>
-            <div class="story px-24 py-16 flex flex-row justify-center shadow-lg mb-24">
-                <figure class="story__testimonial relative flex-shrink-0 mr-8">
-                    <img src="img/testimonial-2.jpg" alt="People on Trip" class="story__img">
-                    <figcaption class="story__caption"> Alayla Johnson</figcaption>
+            <div class="story w-3/4 px-24 py-16 flex flex-row justify-center shadow-lg mb-24">
+                <figure class="story__testimonial overflow-hidden relative skew-x-12 flex-shrink-0 mr-8">
+                    <img src="img/testimonial-2.jpg" alt="People on Trip" class="story__img w-full h-full object-cover">
+                    <figcaption class="story__caption absolute opacity-0 text-center text-2xl"> Alayla Johnson</figcaption>
                 </figure>
-                <div class="story__comment">
+                <div class="story__comment skew-x-12">
                     <h3 class="section__secondary section__color font-bold mb-4">I HAD THE BEST WEEK EVER WITH MY FAMILY</h3>
                     <p class="section__paragraph section__color story__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.</p>
                 </div>
             </div>
-            <div class="story px-24 py-16 flex flex-row justify-center shadow-lg">
-                <figure class="story__testimonial relative flex-shrink-0 mr-8">
-                    <img src="img/testimonial-1.jpg" alt="People on Trip" class="story__img">
-                    <figcaption class="story__caption"> Alayla Johnson</figcaption>
+            <div class="story w-3/4 px-24 py-16 flex flex-row justify-center shadow-lg">
+                <figure class="story__testimonial overflow-hidden relative skew-x-12 flex-shrink-0 mr-8">
+                    <img src="img/testimonial-1.jpg" alt="People on Trip" class="story__img w-full h-full object-cover">
+                    <figcaption class="story__caption absolute opacity-0 text-center text-2xl"> Alayla Johnson</figcaption>
                 </figure>
                 <div class="story__comment">
                     <h3 class="section__secondary section__color font-bold mb-4">WOW! MY LIFE IS COMPLETELY DIFFERENT NOW</h3>
                     <p class="section__paragraph section__color story__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.</p>
+                </div>
+            </div>
+            <a class="btn__link mt-8 inline-block mb-20 text-2xl" href="#">Read all stories →</a>
+        </section>
+        <section class="section-booking section__padding">
+            <div class="booking w-100 shadow-lg">
+                <div class="booking__container p-20 w-2/4">
+                    <form class="booking__form w-full">
+                        <h2 class="section__main booking__title font-semibold mb-12">START BOOKING NOW</h2>
+                        <div class="booking__group w-full relative section__color section__paragraph mb-8">
+                            <input type="text" class="booking__name booking__input w-full p-3" id="name" required>
+                            <label class="booking__label absolute text-left w-full" for="name">Full name</label>
+                        </div>
+                        <div class="booking__group w-full relative section__color section__paragraph mb-8">
+                            <input type="text" class="booking__email booking__input w-full p-3" id="email" required>
+                            <label class="booking__label absolute text-left w-full" for="email">Email address</label>
+                        </div>
+                        <div class="booking__group section__color section__paragraph">
+                            <div class="booking__group--radio">
+                                <input type="radio" class="form__radio-input" id="small" name="size">
+                                <input type="radio" class="form__radio-input" id="small" name="size">
+                            </div>
+                        </div>
+                        <a class="btn btn__purple uppercase mt-12 text-white text-center" id="btn">NEXT STEP →</a>
+                    </form>
                 </div>
             </div>
         </section>

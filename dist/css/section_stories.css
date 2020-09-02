@@ -2,45 +2,52 @@
 .stories__bg {
     top:0;
     left:0;
-    width:100%;
-    height:100%;
     opacity:.15;
-    overflow: hidden;
     z-index:-1;
-}
-
-.stories__video {
-    width:100%;
-    height:100%;
-    object-fit: cover;
 }
 
 .story {
     background: rgba(255, 255, 255, 0.6);
     transform: skewX(-12deg);
-    width: 75%;
     margin: 6rem auto;
     border-radius: 3px;
-    
+}
+
+.story:hover .story__caption {
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    transition: all .4s;
+    opacity:1;
+}
+
+.story:hover .story__img {
+    transform: scale(1);
+    transition: all .4s;
+    filter: blur(.2rem);
 }
 
 .story__testimonial {
-    transform: skewX(12deg);
-    overflow: hidden;
     border-radius: 50%;
     width: 12rem;
     height: 12rem;
-    transform: skewX(12deg);
 }
 
 .story__img {
-    width: 100%;
-    height:100%;
-    object-fit: cover;
     transform: scale(1.4);
+    transition: all .4s;
+}
 
+.story__caption {
+    top: 60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: all .4s;
+    color: #fff;
 }
 
 .story__comment {
     transform: skewX(12deg);
+    text-align: justify;
 }
